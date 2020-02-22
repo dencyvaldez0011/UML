@@ -10,9 +10,7 @@ public class Animal {
     private String boca;
     private String extremidades;
     private int edad;
-<<<<<<< HEAD
     private String orejas;
-=======
     private String tipodeAnimal;
 
     public String getTipodeanimal() {
@@ -22,7 +20,7 @@ public class Animal {
     public void setTipodeanimal(String Tipodeanimal) {
         this.tipodeAnimal = Tipodeanimal;
     }
->>>>>>> 662601ce7a13f19847862710821bca0a3cf4cce4
+    
 
     public String getExtremidades() {
         return extremidades;
@@ -40,9 +38,10 @@ public class Animal {
         this.edad = edad;
     }
 
-    public Animal(String ojos, String boca) {
+    public Animal(String ojos, String boca, String orejas) {
         this.ojos = ojos;
         this.boca = boca;
+        this.orejas = orejas;
     }
 
     public String getOjos() {
