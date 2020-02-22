@@ -13,6 +13,7 @@ public class Persona {
 
     private String nombre;
     private int edad;
+    private String sexo;
 
     public String getSexo() {
         return sexo;
@@ -21,7 +22,7 @@ public class Persona {
     public void setSexo(String sexo) {
         this.sexo = sexo;
     }
-    private String sexo;
+    
 
     public Persona(String nombre, int edad, String sexo) {
         this.nombre = nombre;
