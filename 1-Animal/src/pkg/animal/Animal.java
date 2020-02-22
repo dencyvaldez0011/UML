@@ -10,7 +10,7 @@ public class Animal {
     private String boca;
     private String extremidades;
     private int edad;
-    private String Tipodeanimal;
+    private String tipodeAnimal;
 
     public String getTipodeanimal() {
         return Tipodeanimal;
