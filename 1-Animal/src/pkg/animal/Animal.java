@@ -13,11 +13,11 @@ public class Animal {
     private String tipodeAnimal;
 
     public String getTipodeanimal() {
-        return Tipodeanimal;
+        return tipodeAnimal;
     }
 
     public void setTipodeanimal(String Tipodeanimal) {
-        this.Tipodeanimal = Tipodeanimal;
+        this.tipodeAnimal = Tipodeanimal;
     }
 
     public String getExtremidades() {
