@@ -10,6 +10,7 @@ public class Animal {
     private String boca;
     private String extremidades;
     private int edad;
+    private String orejas;
 
     public String getExtremidades() {
         return extremidades;
