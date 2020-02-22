@@ -8,6 +8,8 @@ public class Animal {
 
     private String ojos;
     private String boca;
+    private String extremidades;
+    private int edad;
 
     public String getExtremidades() {
         return extremidades;
@@ -24,8 +26,6 @@ public class Animal {
     public void setEdad(int edad) {
         this.edad = edad;
     }
-    private String extremidades;
-    private int edad;
 
     public Animal(String ojos, String boca) {
         this.ojos = ojos;
