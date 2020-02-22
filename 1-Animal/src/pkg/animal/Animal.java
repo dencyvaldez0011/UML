@@ -10,6 +10,15 @@ public class Animal {
     private String boca;
     private String extremidades;
     private int edad;
+    private String Tipodeanimal;
+
+    public String getTipodeanimal() {
+        return Tipodeanimal;
+    }
+
+    public void setTipodeanimal(String Tipodeanimal) {
+        this.Tipodeanimal = Tipodeanimal;
+    }
 
     public String getExtremidades() {
         return extremidades;
