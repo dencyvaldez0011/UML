@@ -9,6 +9,24 @@ public class Animal {
     private String ojos;
     private String boca;
 
+    public String getExtremidades() {
+        return extremidades;
+    }
+
+    public void setExtremidades(String extremidades) {
+        this.extremidades = extremidades;
+    }
+
+    public int getEdad() {
+        return edad;
+    }
+
+    public void setEdad(int edad) {
+        this.edad = edad;
+    }
+    private String extremidades;
+    private int edad;
+
     public Animal(String ojos, String boca) {
         this.ojos = ojos;
         this.boca = boca;
